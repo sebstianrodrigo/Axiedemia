@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styless.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Axiedemia</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">AXIEDEMIA</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">HOME</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">NOSOTROS</a>
+          </li>
+          <li class="navbar__link" data-ref="services">
+            <a href="#services">SERVICIOS</a>
+          </li>
+          
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./img/LOGO.jpeg" />
+        <source type="image/jpeg" srcset="./img/LOGO.jpeg" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">Hola Gamers!</span>
+        
+        <h1 class="home__title">Somos Axiedemia</h1>
+        <span class="home__title--secondary">Gamers experimentados en diversos juegos</span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">NOSOTROS</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>¿Quiénes somos?</h2>
+            <p>
+                Somos una comunidad de gamers encabezada por gamers experimentados en distintos juegos. Ahora mismo ofrecemos becas de Axie Infinity con una remuneración del 30% de tu SLP generado cada 15 días.
+            </p>
+            <p> 
+                Dependiendo de tu desempeño como scholar y el progreso de nuestra comunidad, estás condiciones podrían cambiar/aumentar para un bien común.
+            </p>
+            <a
+              class="button--cta"
+              href="./img/Axiedemia.pdf"
+              download="Axiedemia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download Info
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section__title">SERVICIOS</h2>
+        <h3 class="section__subtitle">¿Qué te podemos ofrecer?</h3>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-gamepad"></i>
+            <h3>Equipo</h3>
+            <p>
+                Te ofrecemos un equipo de calidad, para que se te sea sencillo la
+                obtención de este SLP diario y no sólo eso.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-trophy"></i>
+            <h3>Trofeos</h3>
+            <p>
+                Nuestros equipos son 
+                armados y comprados por un experto que tiene experiencia en las 
+                +2000 copas PVP, por lo que nuestros equipos están enfocados para 
+                que puedas sobresalir en el PVP y tener +2000 copas y una mayor obtención
+                de SLP.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-crown"></i>
+            <h3>Mentor</h3>
+            <p>
+                Se te asignará un mentor desde el primer día, para que puedas consultarle. 
+                Este te puede asesorar con tu obtención de SLP, dudas respecto a tu equipo 
+                y otros aspectos in-game como fuera de este.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-users"></i>
+            <h3>Comunidad</h3>
+            <p>
+                También te podemos ofrecer una comunidad en constante crecimiento, 
+                en la que a mediano plazo, las interacciones serán beneficiadas.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">CONTACTO</h2>
+        <h3 class="section__subtitle">
+          Contactanos si te gustaria trabajar con nosotros.
+        </h3>
+        <div class="contact__grid">
+          
+          <a
+            href="mailto:axidemia@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>Gmail</p>
+            </div>
+          </a>
+          
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfYWC6d42dBYcPozHYxX7QnIEyEQPRgTQyeAgC5um0-d0-_LA/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fas fa-poll-h"></i>
+              <p>Formulario</p>
+            </div>
+          </a>
+          <a
+            href="https://calendly.com/axiedemiaguild/entrevista?month=2021-10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fas fa-calendar-alt"></i>
+              <p>Calendario</p>
+            </div>
+          </a>
+          <a
+            href="https://discord.com/invite/QJuxbkR8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-discord"></i>
+              <p>Discord</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="#">@Axiedemia</a>          
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
