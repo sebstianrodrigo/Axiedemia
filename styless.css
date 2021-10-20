@@ -371,9 +371,14 @@ section {
 .fa-calendar-alt{
   color: #00acee;
 }
-
+.fa-facebook{
+  color: #182199;
+}
 .fa-discord{
   color:#2f1e77  ;
+}
+.fa-instagram{
+  color: brown;
 }
 
 .contact__item i {
@@ -400,6 +405,22 @@ section {
 .active a {
   color: #f5f5f5;
 }
+.social__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.social__item {
+  color: var(--grey);
+  padding: 40px;
+  transition: all 0.3s;
+}
+.social__item i {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
 
 .footer {
   color: var(--grey);
